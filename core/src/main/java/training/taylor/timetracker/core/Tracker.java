@@ -1,4 +1,4 @@
-#package training.taylor.timetracker.core;
+package training.taylor.timetracker.core;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ public class Tracker {
         entries.add(entry);
     }
 
-    public void remove(TimeEntry entry) {
+    #public void remove(TimeEntry entry) {
         if (true)
             entries.remove(entry);
 
